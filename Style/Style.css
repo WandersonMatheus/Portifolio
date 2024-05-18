@@ -9,12 +9,13 @@ body{
 :root{
     --corbase:#284CEB;
     --cormaisbase:#4158C0;
-    --cor3:#4B5996;
+    --cor3:#4b5996f1;
     --cor4:#484E6B;
     --cor5:#363841de;
     --cormaisescura:#292B33;   
-    --corminhafoto:#f0f0f0;
+    --corminhafoto:#d3d3d3;
 }
+
 .principal{
     padding: 0;
     margin: 0;
@@ -25,6 +26,9 @@ body{
 main p{
     font-size: 1.2em;
     line-height: 1.4em;
+}
+main h2{
+    padding: 25px 0px 10px 0px;
 }
 nav{
     padding: 10px;
@@ -50,19 +54,22 @@ nav>a:hover::after{
     width: 100%;
 }
 #primeiro{
-    background-size: cover;
-    background-image: url(Imagens/background/fundomaior.jpg);
+    background-image: url(Imagens/background/backgroundpc1366p.jpg);
     margin: 0;
     padding: 0;
     color: white;
 }
 #quemsou{
-    background-color: #4b59968c;
+    background-color: #3d4568ad;
     margin:auto;
     padding: 35px;
     width: 65%;
-    text-align: center;
     border-radius: 20px;
+}
+#comprimento{
+    font-size: 3em;
+    justify-content: left;
+    padding: 10px 0px 7px 0px;
 }
 .social {
     margin: 15px;
@@ -77,23 +84,37 @@ nav>a:hover::after{
 .social img {
     width: 40px; /* Ajusta o tamanho da imagem conforme necessário */
 }
-
+#sobre{
+    background-color: var(--corminhafoto);
+}
 #sobremim{
     display: flex;
     align-items: center;
-    background-color: var(--corminhafoto);
 }
 #conteudo{
     padding: 30px;
 }
 #titulocont{
-    justify-content: center;
+    
+    margin: 0px 0px 70px 0px;
+    font-weight: bolder;
+    color: cor;
 }
 #imgeu img{
     padding: 2px;
     max-width: 100vw; /* Largura máxima igual à largura da viewport */
 }
+#textosobremim{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+    line-height:1.4em;
+}
+#skills{
+    padding: 5px 15px 5px 0px;
+}
 #projetos{
+    color: white;
     background-color: var(--cor5);
     display: flex;
     align-items: center;
