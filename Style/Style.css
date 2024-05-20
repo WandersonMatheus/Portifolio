@@ -13,7 +13,7 @@ body{
     --cor4:#484E6B;
     --cor5:#363841de;
     --cormaisescura:#292B33;   
-    --corminhafoto:#d3d3d3;
+    --corminhafoto:#D9D5D2;
 }
 
 .principal{
@@ -31,6 +31,9 @@ main h2{
     padding: 25px 0px 10px 0px;
 }
 nav{
+    width: 100%;
+    position:fixed;
+    background-color: #1E2625;
     padding: 10px;
 }
 nav>a{
@@ -53,13 +56,18 @@ nav>a::after{
 nav>a:hover::after{
     width: 100%;
 }
+#linkmeunome{
+    padding-right: 20px;
+    font-weight:900;
+    font-size: 2em;
+}
 #primeiro{
     background-image: url(Imagens/background/backgroundpc1366p.jpg);
     margin: 0;
     padding: 0;
     color: white;
 }
-#quemsou{
+#descricao{
     background-color: #3d4568ad;
     margin:auto;
     padding: 35px;
@@ -95,18 +103,22 @@ nav>a:hover::after{
     padding: 30px;
 }
 #titulocont{
-    
-    margin: 0px 0px 70px 0px;
+    margin: 0px 0px 100px 0px;
     font-weight: bolder;
-    color: cor;
+}
+#titulocont::before{
+    content: "|";
+    height: 32px;
 }
 #imgeu img{
-    padding: 2px;
+    padding: 0px;
     max-width: 100vw; /* Largura máxima igual à largura da viewport */
 }
 #textosobremim{
+    padding: 20px;
+    background-color: #D9BFA0;
+    border-radius: 5px;
     margin: 0px;
-    padding: 0px;
     border-radius: 4px;
     line-height:1.4em;
 }
@@ -115,16 +127,16 @@ nav>a:hover::after{
 }
 #projetos{
     color: white;
-    background-color: var(--cor5);
+    background-color: #1C2326;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
 }
+#titleproj {
+    margin: 0px 0px 100px 0px;
+    font-weight: bolder;
+}
 #imgprojetos{
     display: none;
-}
-#final{
-    background-color: var(--cormaisescura);
-    color: white;
 }
