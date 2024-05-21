@@ -123,7 +123,11 @@ nav>a:hover::after{
     line-height:1.4em;
 }
 #skills{
-    padding: 5px 15px 5px 0px;
+    padding: 5px 0px 5px 0px;
+}
+.imgtec{
+    padding-top: 20px;
+    padding-right: 50px;
 }
 #projetos{
     color: white;
@@ -133,10 +137,16 @@ nav>a:hover::after{
     justify-content: center;
     padding: 30px;
 }
-#titleproj {
-    margin: 0px 0px 100px 0px;
+#projetos > #titleproj {
+    margin: 20px 1180px 10px 45px;
     font-weight: bolder;
 }
-#imgprojetos{
-    display: none;
+#titleproj::before{
+    content: "|";
+    height: 32px;
+}
+
+footer{
+    color: white;
+    background-color: #1E2625;
 }
